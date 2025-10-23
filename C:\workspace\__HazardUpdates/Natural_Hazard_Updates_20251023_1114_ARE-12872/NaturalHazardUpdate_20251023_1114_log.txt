@@ -1,0 +1,49 @@
+Update Data Log File
+Date: 20251023_1114
+### Hazard Update Log File ###
+
+Date/Time: 20251023_1114
+
+The following hazards have been selected for updating:
+	- Special Flood Hazard
+	- Alquist-Priolo Fault Rupture
+	- California Geological Survey Landslide Zone
+	- California Geological Survey Liquefaction Zone
+	- Solid Waste Facilities (SWIS)
+	- NPL
+	- SEMS (CERCLIS)
+	- Toxic Release Inventory
+	- State Priority List
+	- Leaking Underground Storage Tanks
+	- Gas/Oil/Geothermal
+	- Critical Habitat
+
+
+The following ancillary datasets have been selected for updating:
+ --- No Ancillary Datasets Selected ---
+Special Flood Hazard: failed or skipped — 'NoneType' object has no attribute 'env'
+### CGS LAYERS UPDATE ###
+Open-source mode requires `layer_urls` with keys: landslide, liquefaction, fault, evaluation.
+CGS Layers: returned no result (None)
+Solid Waste Facilities (SWIS): failed or skipped — 'NoneType' object has no attribute 'env'
+EPA Layers: failed or skipped — 'NoneType' object has no attribute 'env'
+State Priority List: failed or skipped — 'NoneType' object has no attribute 'env'
+LUST: failed or skipped — 'NoneType' object has no attribute 'env'
+All Wells: failed or skipped — 'NoneType' object has no attribute 'env'
+Critical Habitat: failed or skipped — 'NoneType' object has no attribute 'env'
+Harvester requires GeoPandas/Fiona (or add an ogr2ogr fallback). No module named 'fiona'
+FINAL: cannot inspect C:\workspace\__HazardUpdates/Natural_Hazard_Updates_20251023_1114_ARE-12872/Natural_Hazard_Updates_20251023_ARE-12872.gpkg — No module named 'fiona'
+
+
+ ------------ Script Complete ------------
+
+	Updates Saved Here:
+		C:\workspace\__HazardUpdates/Natural_Hazard_Updates_20251023_1114_ARE-12872
+
+	Final Published Output:
+		C:\workspace\__HazardUpdates/Natural_Hazard_Updates_20251023_1114_ARE-12872/Natural_Hazard_Updates_20251023_ARE-12872.gpkg
+
+	Update Details:
+		C:\workspace\__HazardUpdates/Natural_Hazard_Updates_20251023_1114_ARE-12872/NaturalHazardUpdate_20251023_1114_log.txt
+
+ -------------    End Log     ------------

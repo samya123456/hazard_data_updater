@@ -1,0 +1,29 @@
+:: In a Windows terminal (PowerShell or CMD)
+python3 -m venv .venv
+source ./.venv/bin/activate
+.venv\Scripts\Activate
+.venv\Scripts\pip install --upgrade pip
+.venv\Scripts\pip install -r requirements.txt pyinstaller
+python -m pip install --force-uninstall --extra-index-url https://PySimpleGUI.net/install PySimpleGUI
+
+:: If your scripts read/write relative files, keep --add-data to bundle templates, etc.
+pyinstaller launcher_tk.py --onefile --windowed --name HazardTools --add-data "templates;templates"
+
+:: Your exe will be at .\dist\HazardTools.exe
+
+
+test in mac:
+===========
+python launcher_tk.py
+
+
+
+
+
+
+
+NaturalHazardUpdaterTool_Functions.py -- corrected
+UpdateHazard_CGSLayers_module.py -- corrected
+UpdateHazard_RightToFarm_module.py -- corrected
+UpdateHazard_EPALayers_module.py -- corrected
+UpdateHazard_Railroads.py -- corrected

@@ -1,0 +1,9 @@
+geopandas
+shapely
+pyproj
+pyogrio
+esridump
+geopy
+requests
+selenium
+tqdm
